@@ -1,14 +1,12 @@
 body{
     font-family: 'Roboto', sans-serif;
     color:white;
+    background-image:linear-gradient(rgb(204, 200, 210),rgb(63, 58, 58));
 }
 h1{
     font-size:30px;
 }
-.colour{
-    color:rgb(236, 235, 240);
-}
-section{
+.flexible-container{
     display: flex;
     margin: 100px;
 }
@@ -29,11 +27,15 @@ padding-left: 9%;
 }
 .top-banner{
     background-image:url(images/5.jpg);
-    background-repeat:no-repeat;\width:100%;
+    background-repeat:no-repeat;
+    width:100%;
 }
 .dream-big{
     background-image:url(images/4.jpg);
     background-repeat:no-repeat;
     width: 100%;
+    opacity:.7;
 }
-
+.experience-area{
+    margin-left: 8%;
+}
